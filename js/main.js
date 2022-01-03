@@ -17,6 +17,9 @@ navToggle.addEventListener("click", () => {
 navMenu.addEventListener("click", () => {
     if (document.body.clientWidth < 720) {
         nav.classList.toggle("open");
+        navIcon.forEach((icon) => {
+            icon.classList.toggle("hidden");
+        });
     }
 });
 

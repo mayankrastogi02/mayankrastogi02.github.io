@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="resources/img/bitmoji-cropped.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Rastogi</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h2><a href="#home" style="color: aliceblue; text-decoration: none;">MAYANK RASTOGI</a></h2>
+            <div class="nav-toggle" id="navToggle">
+                <img id="navClosed" class="navIcon" src="resources/img/menu.png" alt="hamburger menu">
+                <img id="navOpen" class="navIcon hidden" src="resources/img/cross.png" alt="close hamburger">
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav_menu"><a href="#home">Home</a></li>
+                    <li class="nav_menu"><a href="#about">About</a></li>
+                    <li class="nav_menu"><a href="#experience">Experience</a></li>
+                    <li class="nav_menu"><a href="#projects">Projects</a></li>
+                    <li class="nav_menu"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="content home" id="home">
+        <img class="bitmoji" src="resources/img/bitmoji.png" alt="">
+        <h1>Hello&#128075;, my name is Mayank Rastogi.</h1>
+        <h3>I'm a 2nd year Computer Engineering student.</h3>
+        <a href="https://www.linkedin.com/in/mayankrastogi02/" target="_blank"><img class="contact_logo" src="resources/img/linkedin.png" alt=""></a>
+        <a href="https://github.com/mayankrastogi02" target="_blank"><img class="contact_logo" src="resources/img/github.png" alt=""></a>
+        <a href="mailto:mayankrastogi2k@gmail.com" target="_blank"><img class="contact_logo" src="resources/img/mail.png" alt=""></a>
+    </section>
+    <section class="content about" id="about">
+        <h1>ABOUT</h1>
+        <div class="container">
+            <div class="accordian">
+                <div class="accordian-item" id="item1">
+                    <div class="accordian-link">Introduction
+                        <div class="about-toggle" id="aboutToggle">
+                            <i class="fas fa-plus aboutIcon1" id="aboutClosed"></i>
+                            <i class="fas fa-minus aboutIcon1 hidden" id="aboutOpen"></i>
+                        </div>
+                    </div>
+                    <div class="answer">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+                <div class="accordian-item" id="item2">
+                    <div class="accordian-link">Education
+                        <div class="about-toggle" id="aboutToggle">
+                            <i class="fas fa-plus aboutIcon2" id="aboutClosed"></i>
+                            <i class="fas fa-minus aboutIcon2 hidden" id="aboutOpen"></i>
+                        </div>
+                    </div>
+                    <div class="answer">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+                <div class="accordian-item" id="item3">
+                    <div class="accordian-link">Skills
+                        <div class="about-toggle" id="aboutToggle">
+                            <i class="fas fa-plus aboutIcon" id="aboutClosed"></i>
+                            <i class="fas fa-minus aboutIcon hidden" id="aboutOpen"></i>
+                        </div>
+                    </div>
+                    <div class="answer">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+                <div class="accordian-item" id="item4">
+                    <div class="accordian-link">Interests
+                        <div class="about-toggle" id="aboutToggle">
+                            <i class="fas fa-plus aboutIcon" id="aboutClosed"></i>
+                            <i class="fas fa-minus aboutIcon hidden" id="aboutOpen"></i>
+                        </div>
+                    </div>
+                    <div class="answer">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content interests" id="experience">
+        <h1>EXPERIENCE</h1>
+        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">List 1</div>
+                <div class="content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+            <div class="contentBx">
+                <div class="label">List 2</div>
+                <div class="content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content projects" id="projects">
+        <h1>PROJECTS</h1>
+    </section>
+    <section class="content contact" id="contact">
+        <h1>CONTACT</h1>
+    </section>
+    <script src="js/main.js"></script>
+    <script>
+        const accordion = document.getElementsByClassName('contentBx');
+        for(i = 0; i < accordion.length; i++){
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active');
+            })
+        }
+    </script>
+    <script>
+        const accordian = document.getElementsByClassName('accordian-item');
+        for(i = 0; i < accordian.length; i++){
+            accordian[i].addEventListener('click', function(){
+                this.classList.toggle('active');
+            })
+        }
+    </script>
+</body>
+
+</html>

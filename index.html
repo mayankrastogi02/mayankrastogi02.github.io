@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="resources/img/bitmoji-cropped.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Rastogi</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h2><a href="#home" style="color: aliceblue; text-decoration: none;">MAYANK RASTOGI</a></h2>
+            <div class="nav-toggle" id="navToggle">
+                <img id="navClosed" class="navIcon" src="resources/img/menu.png" alt="hamburger menu">
+                <img id="navOpen" class="navIcon hidden" src="resources/img/cross.png" alt="close hamburger">
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav_menu"><a href="#home">Home</a></li>
+                    <li class="nav_menu"><a href="#about">About</a></li>
+                    <li class="nav_menu"><a href="#experience">Experience</a></li>
+                    <li class="nav_menu"><a href="#projects">Projects</a></li>
+                    <li class="nav_menu"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="content home" id="home">
+        <img class="bitmoji" src="resources/img/bitmoji.png" alt="">
+        <h1>Hello&#128075;, my name is Mayank Rastogi.</h1>
+        <h3>I'm a 2nd year Computer Engineering student.</h3>
+        <a href="https://www.linkedin.com/in/mayankrastogi02/" target="_blank"><img class="contact_logo"
+                src="resources/img/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/mayankrastogi02" target="_blank"><img class="contact_logo"
+                src="resources/img/github.png" alt="GitHub"></a>
+        <a href="mailto:mayankrastogi2k@gmail.com" target="_blank"><img class="contact_logo"
+                src="resources/img/mail.png" alt="mail"></a>
+        <a href="resources/documents/Mayank_Rastogi_Resume.pdf" target="_blank"><img class="contact_logo"
+                src="resources/img/resume-logo.png" alt="resume" style="height: 24px; width: 24px;"></a>
+    </section>
+    <section class="content about" id="about">
+        <h1>ABOUT</h1>
+        <button class="accordion">Introduction</button>
+        <div class="panel">
+            <p>
+                <ul>
+                    <li>I am currently a second year Computer Engineering student at The University of British Columbia.
+                    </li>
+                    <li>I am also a software developer at <a href="https://ubclaunchpad.com">UBC Launch Pad</a></li>
+                    <li>Fun fact: I was born in INDIA, brought up in DUBAI, and currently studying in Canada</li>
+                </ul>
+            </p>
+        </div>
+        <button class="accordion">Education</button>
+        <div class="panel">
+            <p>University of British Columbia <br>
+                Bachelor of Applied Sceince, Computer Engineering <br>
+                2020-2025 <br>
+                <hr>
+                Delhi Private School, Sharjah<br>
+                Science<br>
+                2006-2020 <br>
+            </p>
+        </div>
+        <button class="accordion">Skills</button>
+        <div class="panel">
+            <p>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Javascript</div>
+                <div class="skill">Java</div>
+                <div class="skill">C/C++</div>
+                <div class="skill">Python</div>
+                <div class="skill">Verilog</div>
+                <div class="skill">ARM</div>
+                <div class="skill">Dart</div>
+            </p>
+        </div>
+        <button class="accordion">Interests</button>
+        <div class="panel">
+            <p>
+                <div class="skill">Chess</div>
+                <div class="skill">Formula 1 Racing</div>
+                <div class="skill">Music</div>
+            </p>
+        </div>
+    </section>
+    <section class="content experience" id="experience">
+        <h1>EXPERIENCE</h1>
+        <button class="accordion">UBC Launch Pad</button>
+        <div class="panel">
+            <div class="content-table">
+                <div class="label-div">
+                    <label for="test"><img src="resources/img/launchpad-logo.jpg"></label></div>
+                <span>
+                    <p class="subtext">
+                        Software Developer <br>
+                        September 2020 - Present
+                    </p>
+                    <p>
+                        <ul style="padding: 1rem;">
+                            <li>Active team member of Productivity sub-team.</li>
+                            <li>Developed two mobile apps using Flutter, Dart, and SQL.</li>
+                            <li>Onboarded UBC Meetable team as Software Developer, working on a React Native app</li>
+                        </ul>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <button class="accordion">Emirates Environmental Group</button>
+        <div class="panel">
+            <div class="content-table">
+                <div class="label-div">
+                    <label for="test"><img src="resources/img/eeg-logo.jpg"></label></div>
+                <span>
+                    <p class="subtext">
+                        Software Engineer Intern <br>
+                        June 2021 - August 2021
+                    </p>
+                    <p>
+                        <ul style="padding: 1rem;">
+                            <li>Developed data management system to automate waste collection using MongoDB, RRule.js,
+                                and EJS.
+                            </li>
+                            <li>Researched various scheduling technologies to implement recurring event functionality.
+                            </li>
+                            <li>Attended 3 panelist meetings with 10+ Dubai Authority heads.</li>
+                        </ul>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <button class="accordion">Finllect</button>
+        <div class="panel">
+            <div class="content-table">
+                <div class="label-div">
+                    <label for="test"><img src="resources/img/finllect-logo.jpg"></label></div>
+                <span>
+                    <p class="subtext">
+                        Business Development Intern <br>
+                        June 2020 - September 2021
+                    </p>
+                    <p>
+                        <ul style="padding: 1rem;">
+                            <li>Networked with 10+ businesses and 50+ influencers to generate leads and improve
+                                business.
+                            </li>
+                            <li>Collaborated with departments to support business objectives and client acquisition.
+                            </li>
+                            <li>Offered strategic recommendations on improving content offering to facilitate financial
+                                literacy</li>
+                        </ul>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <button class="accordion">Anannt</button>
+        <div class="panel">
+            <div class="content-table">
+                <div class="label-div">
+                    <label for="test"><img src="resources/img/anannt-logo.jpg"></label></div>
+                <span>
+                    <p class="subtext">
+                        Web Development Intern <br>
+                        June 2020 - August 2021
+                    </p>
+                    <p>
+                        <ul style="padding: 1rem;">
+                            <li>Developed web pages using HTML and WordPress.</li>
+                            <li>Designed, implemented, and monitored web pages for continuous improvement.</li>
+                            <li>Tracked and analyzed web analytics to recommend proactive adjustments to strategies.
+                            </li>
+                        </ul>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <button class="accordion">ABB</button>
+        <div class="panel">
+            <div class="content-table">
+                <div class="label-div">
+                    <label for="test"><img src="resources/img/abb-logo.jpg"></label></div>
+                <span>
+                    <p class="subtext">
+                        Web Development Intern <br>
+                        July 2019 - August 2019
+                    </p>
+                    <p>
+                        <ul style="padding: 1rem;">
+                            <li>Debugged ABB website through the identification of errors and propagation to improve
+                                user experience.</li>
+                            <li>Implemented features to make website innovative and user friendly.</li>
+                            <li>Engaged in stakeholder consultations and team sessions.</li>
+                        </ul>
+                    </p>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="content projects" id="projects">
+        <h1>PROJECTS</h1>
+        <button class="accordion">Social Exchanger</button>
+        <div class="panel">
+            <div class="projectsDiv">
+                <div class="imageLabel">
+                    <img src="resources/img/socialExchanger.png" style="height: 300px;">
+                </div>
+                <div class="textLabel">
+                    <p class="subtext_projects">
+                        November 2021 - Present <br>
+                        Personal Project <br>
+                        Coming soon!
+                    </p>
+                    <p>A mobile app that lets users avoid speeling out their usernames and lets them exchange their
+                        social networking accounts with the help of QR codes</p>
+                    <div class="projectDiv">
+                        <div class="project_tag">React Native</div>
+                        <div class="project_tag">Javascript</div>
+                        <div class="project_tag">EXPO CLI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Project 2-->
+        <button class="accordion">WikiMediatorServer</button>
+        <div class="panel">
+            <div class="projectsDiv">
+                <div class="imageLabel">
+                    <img src="resources/img/server.png" style="width: 350px;">
+                </div>
+                <div class="textLabel">
+                    <p class="subtext_projects">
+                        November 2021 - December 2021 <br>
+                        UBC ECE
+                    </p>
+                    <p>Developed thread-safe wiki query methods using a finite-space finite-time buffer and cache, along
+                        with
+                        implementing a server to handle concurrent JSON client requests.
+                    </p>
+                    <div class="projectDiv">
+                        <div class="project_tag">Java</div>
+                        <div class="project_tag">JSON Parsing</div>
+                        <div class="project_tag">Concurrency</div>
+                        <div class="project_tag">Thread Safety</div>
+                        <div class="project_tag">Object Oriented Programming</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Project 3-->
+        <button class="accordion">Class Organizer</button>
+        <div class="panel">
+            <div class="projectsDiv">
+                <div class="imageLabel">
+                    <img src="resources/img/classorganizer.jpg" style="height: 300px;">
+                </div>
+                <div class="textLabel">
+                    <p class="subtext_projects">
+                        April 2021 - May 2021 <br>
+                        Personal Project
+                    </p>
+                    <p>A flutter app to organize online classes. Using this app you can directly access links to your
+                        online classes without having to navigate all around your course management softwares. ONE CLICK
+                        (well actually two) and you're in the class.</p>
+                    <div class="projectDiv">
+                        <div class="project_tag">Flutter</div>
+                        <div class="project_tag">Dart</div>
+                        <div class="project_tag">SQLite</div>
+                        <div class="project_tag">UI/UX</div>
+                        <div class="project_tag">HTML</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Project 4-->
+        <button class="accordion">Hotel Management Sysem</button>
+        <div class="panel">
+            <div class="projectsDiv">
+                <div class="imageLabel">
+                    <img src="resources/img/hotelCMS.png" style="height: 200px;">
+                </div>
+                <div class="textLabel">
+                    <p class="subtext_projects">
+                        July 2020 - August 2020 <br>
+                        DPS Sharjah
+                    </p>
+                    <p>Designed and developed an inventory and processing system to manage hotel bookings and guest
+                        records.</p>
+                    <div class="projectDiv">
+                        <div class="project_tag">C++</div>
+                        <div class="project_tag">I/O File Handling</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content contact" id="contact">
+        <h1>CONTACT</h1>
+        <p>Feel free to reach out to me via <a href="mailto:mayankrastogi2k@gmail.com" target="_blank"
+                style="text-decoration: underline; color: black;">
+                email</a> or on <a href="https://www.linkedin.com/in/mayankrastogi02/" target="_blank"
+                style="text-decoration: underline; color: black;">LinkedIn</a>.</p>
+        <div class="contactDiv">
+            <a href="https://www.linkedin.com/in/mayankrastogi02/" target="_blank"
+                style="text-decoration: none; color: black;">
+                <div class="skill"><img src="resources/img/linkedin.png" alt="LinkedIn">LinkedIn</div>
+            </a>
+            <a href="https://github.com/mayankrastogi02" target="_blank" style="text-decoration: none; color: black;">
+                <div class="skill"><img src="resources/img/github.png" alt="GitHub">GitHub</div>
+            </a>
+            <a href="resources/documents/Mayank_Rastogi_Resume.pdf" target="_blank"
+                style="text-decoration: none; color: black;">
+                <div class="skill"><img src="resources/img/resume-logo.png" alt="resume"
+                        style="height: 24px; width: 24px;">Resume</div>
+            </a>
+        </div>
+        <p>Here's my business card!</p>
+        <div class="business-card">
+            <div class="imageDiv">
+                <img src="resources/img/bitmoji.png" alt="me">
+            </div>
+            <div class="textDiv">
+                Mayank Rastogi <br>
+                <a href="mailto:mayankrastogi2k@gmail.com" target="_blank">mayankrastogi2k@gmail.com</a> <br>
+                Vancouver, British Columbia, Canada <br>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="footerDiv">
+            <i class="far fa-copyright"></i>Mayank Rastogi 2022
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

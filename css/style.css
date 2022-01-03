@@ -57,8 +57,12 @@ header {
 .nav_menu a {
     text-decoration: none;
     color: aliceblue;
+    /* font-size: 1rem; */
 }
 
+.nav_menu:hover {
+    text-decoration: underline;
+}
 .nav-toggle {
     display: none;
     /* position: absolute; */
@@ -269,6 +273,7 @@ header {
 .projectsDiv {
     display: flex;
     width: 100%;
+    height: 100%;
     flex-direction: row;
 }
 
@@ -277,12 +282,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
+    height: 100%;
     width: 40%;
     min-height: 230px;
+    margin: 2rem;
     /* position: relative; */
     border-radius: 2rem;
+    background-color: rgb(236, 222, 165);
+    box-shadow: 0 0 2rem 0 rgb(0 0 0 / 50%);
     /* background-color: blue; */
+}
+
+.imageLabel:hover {
+    box-shadow: 0 0 2rem 0 rgb(0 0 0 / 80%);
+    transition: ease-in-out 0.2s;
 }
 
 .textLabel {

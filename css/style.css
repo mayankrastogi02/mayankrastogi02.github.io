@@ -63,6 +63,7 @@ header {
 .nav_menu:hover {
     text-decoration: underline;
 }
+
 .nav-toggle {
     display: none;
     /* position: absolute; */
@@ -504,6 +505,12 @@ header {
     .imageLabel {
         display: flex;
         flex-direction: column;
+        box-shadow: none;
+        background-color: rgb(238, 231, 204);
+    }
+
+    .imageLabel:hover {
+        box-shadow: none;
     }
 
     .textLabel {

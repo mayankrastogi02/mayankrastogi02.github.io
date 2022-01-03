@@ -1,4 +1,5 @@
 const navToggle = document.querySelector("#navToggle");
+const navMenu = document.querySelector("#navMenu");
 const navClosedIcon = document.querySelector("#navClosed");
 const navOpenIcon = document.querySelector("#navOpen");
 const navIcon = document.querySelectorAll(".navIcon");
@@ -12,6 +13,11 @@ navToggle.addEventListener("click", () => {
     navIcon.forEach((icon) => {
         icon.classList.toggle("hidden");
     });
+});
+navMenu.addEventListener("click", () => {
+    if (document.body.clientWidth < 720) {
+        nav.classList.toggle("open");
+    }
 });
 
 

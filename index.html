@@ -6,6 +6,7 @@
     <link rel="icon" href="resources/img/bitmoji-cropped.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
                 <img id="navClosed" class="navIcon" src="resources/img/menu.png" alt="hamburger menu">
                 <img id="navOpen" class="navIcon hidden" src="resources/img/cross.png" alt="close hamburger">
             </div>
-            <nav>
+            <nav id="navMenu">
                 <ul>
                     <li class="nav_menu"><a href="#home">Home</a></li>
                     <li class="nav_menu"><a href="#about">About</a></li>
@@ -71,15 +72,17 @@
         <button class="accordion">Skills</button>
         <div class="panel">
             <p>
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
-                <div class="skill">Javascript</div>
-                <div class="skill">Java</div>
-                <div class="skill">C/C++</div>
-                <div class="skill">Python</div>
-                <div class="skill">Verilog</div>
-                <div class="skill">ARM</div>
-                <div class="skill">Dart</div>
+                <div class="skill"><i class="devicon-html5-plain colored"></i></i>
+                    HTML</div>
+                <div class="skill"><i class="devicon-css3-plain colored"></i> CSS</div>
+                <div class="skill"><i class="devicon-javascript-plain colored"></i> Javascript</div>
+                <div class="skill"><i class="devicon-java-plain colored"></i> Java</div>
+                <div class="skill"><i class="devicon-cplusplus-plain colored"></i> C++</div>
+                <div class="skill"><i class="devicon-c-plain colored"></i> C</div>
+                <div class="skill"><i class="devicon-python-plain colored"></i> Python</div>
+                <div class="skill"><i class="devicon-arduino-plain colored"></i> Verilog</div>
+                <div class="skill"><i class="devicon-devicon-plain colored"></i> ARM</div>
+                <div class="skill"><i class="devicon-dart-plain colored"></i> Dart</div>
             </p>
         </div>
         <button class="accordion">Interests</button>
@@ -239,8 +242,11 @@
                     <p class="subtext_projects">
                         December 2021 - January 2022 <br>
                         Personal Project <br>
+
                     </p>
-                    <p>My personal website, highlighting my portfolio. This website itself has undergone countless updates and design variations. The end product is a simplistic and responsive HTML website including features such as animation and accordions.</p>
+                    <p>My personal website, highlighting my portfolio. This website itself has undergone countless
+                        updates and design variations. The end product is a simplistic and responsive HTML website
+                        including features such as animation and accordions.</p>
                     <div class="projectDiv">
                         <div class="project_tag">HTML</div>
                         <div class="project_tag">CSS</div>
@@ -285,7 +291,9 @@
                 <div class="textLabel">
                     <p class="subtext_projects">
                         April 2021 - May 2021 <br>
-                        Personal Project
+                        Personal Project <br>
+                        <a href="https://github.com/mayankrastogi02/ClassOrganizer"
+                            style="text-decoration: underline; color: rgb(122, 122, 122);">Check it out!</a>
                     </p>
                     <p>A flutter app to organize online classes. Using this app you can directly access links to your
                         online classes without having to navigate all around your course management softwares. ONE CLICK
@@ -310,7 +318,9 @@
                 <div class="textLabel">
                     <p class="subtext_projects">
                         July 2020 - August 2020 <br>
-                        DPS Sharjah
+                        DPS Sharjah <br>
+                        <a href="https://github.com/mayankrastogi02/Hotel-Management-System"
+                            style="text-decoration: underline; color: rgb(122, 122, 122);">Check it out!</a>
                     </p>
                     <p>Designed and developed an inventory and processing system to manage hotel bookings and guest
                         records.</p>
@@ -361,4 +371,5 @@
     </section>
     <script src="js/main.js"></script>
 </body>
+
 </html>

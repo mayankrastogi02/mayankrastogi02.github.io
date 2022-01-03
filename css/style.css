@@ -253,7 +253,7 @@ header {
     word-wrap: break-word;
     align-items: center;
     justify-content: flex-start;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 1rem;
     /* background-color: rgb(236, 222, 165); */
     background-color: hsl(49 37% 94%);
